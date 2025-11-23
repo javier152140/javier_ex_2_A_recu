@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.experimento{
+    
+    height: 30vh;
+  background-color: rgb(17, 196, 255);
+}
+.Informacion_aleatoria{
+     flex: 1;
+  background-color: lightgreen;
+}
+
+.fila-inferior {
+  display: flex;
+  height: 30vh;
+}
+
+.recursos, .bloques_informacion {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+
+
+.bloques_informacion{
+   height: 30vh;
+  background-color: lightblue;
+}
+.derecha{
+   display: flex;
+  flex-direction: column;
+  width: 50%;  
+}
+.recursos{
+  height: 30vh;
+  background-color: lightblue;
+}
+
+
+
+.cabecera{
+    flex: 1;
+  background-color: rgb(86, 224, 116);
+}
